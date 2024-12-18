@@ -7,6 +7,6 @@ Authors@R: person("Ranke", "Johannes", role = c("aut", "cre"), email =
         "johannes.ranke@agroscope.admin.ch")
 Description: Reproducible example that produces at least a warning.
 Depends: R (>= 3.5.0), data.tree
-License: GPL (>= 2)
+License: GPL (>= 3)
 Encoding: UTF-8
 RoxygenNote: 7.3.2.9000

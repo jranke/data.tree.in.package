@@ -4,3 +4,4 @@
 ^\.github$
 log
 GNUmakefile
+^LICENSE\.md$

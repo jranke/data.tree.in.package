@@ -9,6 +9,7 @@ all: install
 # Needs to be manually edited to include files that should be watched
 # for changes
 pkgfiles = \
+	.Rbuildignore \
   DESCRIPTION \
 	NAMESPACE \
 	data/* \
