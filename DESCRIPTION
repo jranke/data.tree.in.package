@@ -1,0 +1,12 @@
+Package: data.tree.in.package
+Type: Package
+Title: Reprex Package for Testing How to Store a data.tree::Node Object in a Package using Lazy Loading
+Version: 1.0
+Date: 2024-12-18
+Authors@R: person("Ranke", "Johannes", role = c("aut", "cre"), email =
+        "johannes.ranke@agroscope.admin.ch")
+Description: Reproducible example that produces at least a warning.
+Depends: R (>= 3.5.0), data.tree
+License: GPL (>= 2)
+Encoding: UTF-8
+RoxygenNote: 7.3.2.9000
