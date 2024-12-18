@@ -21,7 +21,11 @@ Maintainer: ‘Ranke Johannes <johannes.ranke@agroscope.admin.ch>’
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘data.tree.in.package’ can be installed ... OK
+* checking whether package ‘data.tree.in.package’ can be installed ... WARNING
+Found the following significant warnings:
+  Warning in (function ()  : 'Node$fields' is deprecated.
+  Warning in (function ()  : 'Node$fieldsAll' is deprecated.
+See ‘/home/f80868656@agsad.admin.ch/projects/data.tree.in.package/data.tree.in.package.Rcheck/00install.out’ for details.
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking for future file timestamps ... NOTE
@@ -56,6 +60,7 @@ unable to verify current time
 * checking for unstated dependencies in examples ... OK
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
+* checking LazyData ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
 * checking PDF version of manual ... OK
@@ -65,7 +70,7 @@ Skipping checking HTML validation: no command 'tidy' found
 * checking for detritus in the temp directory ... OK
 * DONE
 
-Status: 2 NOTEs
+Status: 1 WARNING, 2 NOTEs
 See
   ‘/home/f80868656@agsad.admin.ch/projects/data.tree.in.package/data.tree.in.package.Rcheck/00check.log’
 for details.
